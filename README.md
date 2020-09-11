@@ -1,8 +1,8 @@
 # ![Header Banner: Geraldo Kandonga](https://i.imgur.com/WyAwHym.png)
 
-**Hello all, I'm  Geraldo Kandonga Fillipus a Software Consultant based in Windhoek, Namibia, Africa. Currently working with PHP, JavaScript and Nodejs.**
+**Hello all, I'm  Geraldo Kandonga Fillipus a Software Consultant based in a beautiful Windhoek, Namibia. Currently working with PHP, JavaScript and Nodejs.**
 
-**I'm currently learning React and Vuejs. 😆**
+**Lets talk about React and Vuejs. 😆**
 
 ---
 
