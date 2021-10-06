@@ -43,4 +43,4 @@ export const skills = [
   "Material UI",
 ]
 
-export const copyright = "Geraldo Kandonga Fillipus. All Rights Reserved.";
+export const copyright = "Geraldo Kandonga Fillipus, All Rights Reserved.";

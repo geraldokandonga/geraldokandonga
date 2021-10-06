@@ -7,7 +7,7 @@ export default function Footer(){
     <footer id="footer" className="bg-gray-800">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} {copyright}.
+          &copy; {new Date().getFullYear()} {copyright}
         </p>
         <div className="flex justify-center">
           Social Media
