@@ -23,20 +23,14 @@ const Footer = () => {
           <FooterAboutContainer className="animated fadeIn">
             <h3>About</h3>
             <p className="about-text">
-              I am a Full-Stack Developer, with over 5 years of Software
-              Developer in freelancing.
-            </p>
-            <p className="about-text">
-              I have worked with a numbers of startups locally, and my role has
-              been in helping designing, and provide a creative direction across
-              multiple platforms and mediums. My skillsinclude: API Design,
-              Websites design, Software consultation and development.
+              I am a Full-Stack Developer, with over 4 years of Software
+              Development.
             </p>
           </FooterAboutContainer>
           <FooterContactContainer className="animated fadeIn">
             <h3>Contact</h3>
             <p>
-              <a href="mailto:fillipusgeraldo@gmail.com">
+              <a href="mailto:fillipusgeraldo@gmail.com" title="Contact me">
                 fillipusgeraldo@gmail.com
               </a>
             </p>
@@ -49,22 +43,42 @@ const Footer = () => {
           </p>
           <ul>
             <li>
-              <a href={config.github} target="_blank" rel="noreferrer">
+              <a
+                href={config.github}
+                target="_blank"
+                rel="noreferrer"
+                title="Visit my Github profile"
+              >
                 <GithubIcon />
               </a>
             </li>
             <li>
-              <a href={config.twitter} target="_blank" rel="noreferrer">
+              <a
+                href={config.twitter}
+                target="_blank"
+                rel="noreferrer"
+                title="Visit my Twitter profile"
+              >
                 <TwitterIcon />
               </a>
             </li>
             <li>
-              <a href={config.instagram} target="_blank" rel="noreferrer">
+              <a
+                href={config.instagram}
+                target="_blank"
+                rel="noreferrer"
+                title="Visit my Instagram profile"
+              >
                 <InstagramIcon />
               </a>
             </li>
             <li>
-              <a href={config.linkedin} target="_blank" rel="noreferrer">
+              <a
+                href={config.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                title="Visit my LinkedIn profile"
+              >
                 <LinkedInIcon />
               </a>
             </li>

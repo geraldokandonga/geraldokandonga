@@ -70,6 +70,9 @@ export const ProjectContainer = styled.div`
   flex: 1 16%;
   margin: 1rem;
   cursor: pointer;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  margin-bottom: 15px;
 
   &:hover {
     background: rgba(51, 51, 51, 0.04);
@@ -88,6 +91,7 @@ export const ProjectImage = styled.img`
   filter: grayscale(100%);
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
+  padding: 12ppx;
 
   &:hover {
     filter: none;
