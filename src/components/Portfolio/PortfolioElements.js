@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const PortfolioContainer = styled.div`
   position: fixed;
@@ -43,10 +44,10 @@ export const PortfolioContent = styled.div`
 
 export const CloseIcon = styled(FaTimes)`
   color: black;
-  font-size: 30px;
+  font-size: 4rem;
   cursor: pointer;
   &:hover {
-    background: #e31837;
+    color: #e31837;
   }
 `;
 
@@ -68,6 +69,7 @@ export const ProjectsContainer = styled.div`
 export const ProjectContainer = styled.div`
   flex: 1 16%;
   margin: 1rem;
+  cursor: pointer;
 
   &:hover {
     background: rgba(51, 51, 51, 0.04);
@@ -85,7 +87,6 @@ export const ProjectContainer = styled.div`
 export const ProjectImage = styled.img`
   filter: grayscale(100%);
   transition: all 0.3s ease-in-out;
-  cursor: pointer;
   border-radius: 4px;
 
   &:hover {
@@ -93,16 +94,40 @@ export const ProjectImage = styled.img`
   }
 `;
 
-export const ProjectDetailContainer = styled.div`
+export const ProjectDetailContainer = styled.section`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
+  padding: 2rem;
+`;
 
-  & h3 {
-    font-size: 22px;
-    color: black;
-    margin-top: 22px;
-    margin-bottom: 22px;
+export const ProjectDetailImage = styled.img`
+  margin-top: 3rem;
+`;
+
+export const ProjectDetailDescription = styled.div`
+  font-size: 14px;
+  padding: 0 1.2rem;
+
+  @media (max-width: 600px) {
+    margin-bottom: 2rem;
   }
+
+  @media (max-width: 755px) {
+    margin-bottom: 3rem;
+  }
+
+  @media (max-width: 920px) {
+    margin-bottom: 4rem;
+  }
+`;
+
+export const ProjectDetailLink = styled(Link)`
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  padding: 1rem 0;
+  cursor: pointer;
+  color: #e31837;
 `;

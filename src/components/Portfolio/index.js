@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import {
   PortfolioContainer,
   PortfolioWrap,
@@ -8,14 +8,30 @@ import {
   ProjectsContainer,
   ProjectImage,
   ProjectContainer,
+  ProjectDetailContainer,
+  ProjectDetailDescription,
+  ProjectDetailImage,
+  ProjectDetailLink,
 } from "./PortfolioElements";
 
 import { projects } from "../../data";
+import Modal from "../Modal";
 
 const Portfolio = ({ isOpen, toggle }) => {
+  const [selectedProject, setSelectedProject] = useState(null);
+
+  const ref = useRef(null);
+  const modalRef = useRef();
+
+  const openModal = () => {
+    modalRef.current.openModal();
+  };
+
+  console.log(selectedProject);
+
   return (
-    <PortfolioContainer isOpen={isOpen} onClick={toggle}>
-      <Icon>
+    <PortfolioContainer isOpen={isOpen} onClick={toggle} ref={ref}>
+      <Icon title="Close">
         <CloseIcon onClick={toggle} />
       </Icon>
       <PortfolioWrap>
@@ -23,7 +39,15 @@ const Portfolio = ({ isOpen, toggle }) => {
           <ProjectsContainer>
             {projects.map((project) => (
               <>
-                <ProjectContainer key={project.id}>
+                <ProjectContainer
+                  key={project.id}
+                  onClick={() => {
+                    setSelectedProject(project);
+                    setTimeout(() => {
+                      openModal();
+                    }, 300);
+                  }}
+                >
                   <ProjectImage
                     key={project.id}
                     src={project.thumbnail}
@@ -36,6 +60,27 @@ const Portfolio = ({ isOpen, toggle }) => {
           </ProjectsContainer>
         </PortfolioContent>
       </PortfolioWrap>
+      {selectedProject && (
+        <>
+          <Modal
+            title={selectedProject.name}
+            ref={modalRef}
+            fullscreen={true}
+            size="lg"
+          >
+            <ProjectDetailContainer>
+              <ProjectDetailDescription>
+                {selectedProject.description}{" "}
+                <ProjectDetailLink>Project Detail</ProjectDetailLink>
+              </ProjectDetailDescription>
+              <ProjectDetailImage
+                src={selectedProject.thumbnail}
+                alt={selectedProject.name}
+              />
+            </ProjectDetailContainer>
+          </Modal>
+        </>
+      )}
     </PortfolioContainer>
   );
 };
