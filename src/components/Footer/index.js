@@ -23,11 +23,14 @@ const Footer = () => {
           <FooterAboutContainer className="animated fadeIn">
             <h3>About</h3>
             <p className="about-text">
-              I'm Geraldo, a Software Developer and Consultant in Windhoek
-              Namibia. I have worked for many companies around the world,
-              helping build stunning designs, and provide a creative direction
-              across multiple platforms and mediums. My skillsinclude: Websites,
-              Branding, UI and UX, Graphic design, Photography, and Videography.
+              I am a Full-Stack Developer, with over 5 years of Software
+              Developer in freelancing.
+            </p>
+            <p className="about-text">
+              I have worked with a numbers of startups locally, and my role has
+              been in helping designing, and provide a creative direction across
+              multiple platforms and mediums. My skillsinclude: API Design,
+              Websites design, Software consultation and development.
             </p>
           </FooterAboutContainer>
           <FooterContactContainer className="animated fadeIn">
