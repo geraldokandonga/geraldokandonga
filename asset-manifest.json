@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c59cc657.css",
-    "main.js": "/static/js/main.372616bc.js",
+    "main.js": "/static/js/main.402b5a94.js",
     "static/media/Windhoek-City-Runners-Club.png": "/static/media/Windhoek-City-Runners-Club.4507f59c3826e6b82b1c.png",
     "static/media/Event-Club.png": "/static/media/Event-Club.d3dbf9770e872e497298.png",
     "static/media/City-Striders-Club.png": "/static/media/City-Striders-Club.1c95347984332ef3181c.png",
@@ -11,10 +11,10 @@
     "static/media/resume.pdf": "/static/media/resume.11d19a0ad70be08003d2.pdf",
     "index.html": "/index.html",
     "main.c59cc657.css.map": "/static/css/main.c59cc657.css.map",
-    "main.372616bc.js.map": "/static/js/main.372616bc.js.map"
+    "main.402b5a94.js.map": "/static/js/main.402b5a94.js.map"
   },
   "entrypoints": [
     "static/css/main.c59cc657.css",
-    "static/js/main.372616bc.js"
+    "static/js/main.402b5a94.js"
   ]
 }
