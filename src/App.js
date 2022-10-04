@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { GlobalStyle } from "./globalStyles";
 
 import Navbar from "./components/Navbar";
@@ -15,13 +15,13 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter basename="/">
       <GlobalStyle />
       <Navbar toggle={toggle} />
       <Header />
       <Portfolio isOpen={isOpen} toggle={toggle} />
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
