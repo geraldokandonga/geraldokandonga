@@ -2,15 +2,11 @@
 
 **Hello all, I'm  Geraldo Kandonga Fillipus a Software Consultant based in a beautiful Windhoek, Namibia. Currently working with PHP, JavaScript and Nodejs.**
 
-**Lets talk about React and Vuejs. 😆**
+**Lets talk about ReactJs, NodeJS and PHP. 😆**
 
 ---
 
 <br>
-
-
-
-
 
 <!--
 

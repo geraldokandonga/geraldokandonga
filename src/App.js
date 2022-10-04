@@ -1,19 +1,28 @@
-import React from "react";
-import About from "./components/About";
+import React, { useState } from "react";
+import { BrowserRouter } from "react-router-dom";
+import { GlobalStyle } from "./globalStyles";
+
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Portfolio from "./components/Portfolio";
 
+function App() {
+  const [isOpen, setIsOpen] = useState(false);
 
-export default function App() {
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills/>
-      <Footer/>
-    </main>
+    <BrowserRouter>
+      <GlobalStyle />
+      <Navbar toggle={toggle} />
+      <Header />
+      <Portfolio isOpen={isOpen} toggle={toggle} />
+      <Footer />
+    </BrowserRouter>
   );
 }
+
+export default App;
