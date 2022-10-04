@@ -8,11 +8,13 @@ import {
   NavLink,
 } from "./NavbarElements";
 
+import Resume from "../../assets/resume.pdf";
+
 const Navbar = ({ toggle }) => {
   return (
     <NavbarContainer>
       <NavContainer className="animated fadeIn">
-        <Logo>Geraldo</Logo>
+        <Logo>Geraldo.</Logo>
         <CenterNav>
           <li>
             <NavLink onClick={toggle}>Work</NavLink>
@@ -20,7 +22,9 @@ const Navbar = ({ toggle }) => {
         </CenterNav>
         <SideNav>
           <li>
-            <NavLink>Resume</NavLink>
+            <a href={Resume} download="Resume" target="_blank" rel="noreferrer">
+              Resume
+            </a>
           </li>
         </SideNav>
       </NavContainer>

@@ -11,7 +11,6 @@ import {
   ProjectDetailContainer,
   ProjectDetailDescription,
   ProjectDetailImage,
-  ProjectDetailLink,
 } from "./PortfolioElements";
 
 import { projects } from "../../data";
@@ -26,8 +25,6 @@ const Portfolio = ({ isOpen, toggle }) => {
   const openModal = () => {
     modalRef.current.openModal();
   };
-
-  console.log(selectedProject);
 
   return (
     <PortfolioContainer isOpen={isOpen} onClick={toggle} ref={ref}>
@@ -65,13 +62,20 @@ const Portfolio = ({ isOpen, toggle }) => {
           <Modal
             title={selectedProject.name}
             ref={modalRef}
-            fullscreen={true}
+            fullscreen={false}
             size="lg"
           >
             <ProjectDetailContainer>
               <ProjectDetailDescription>
                 {selectedProject.description}{" "}
-                <ProjectDetailLink>Project Detail</ProjectDetailLink>
+                <a
+                  className="project-link"
+                  href={selectedProject.link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Project Detail
+                </a>
               </ProjectDetailDescription>
               <ProjectDetailImage
                 src={selectedProject.thumbnail}

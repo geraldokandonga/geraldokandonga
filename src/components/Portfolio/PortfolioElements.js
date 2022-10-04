@@ -104,11 +104,21 @@ export const ProjectDetailContainer = styled.section`
 
 export const ProjectDetailImage = styled.img`
   margin-top: 3rem;
+  width: 100%;
 `;
 
 export const ProjectDetailDescription = styled.div`
   font-size: 14px;
   padding: 0 1.2rem;
+
+  & .project-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    padding: 1rem 0;
+    cursor: pointer;
+    color: #e31837;
+  }
 
   @media (max-width: 600px) {
     margin-bottom: 2rem;
@@ -121,13 +131,4 @@ export const ProjectDetailDescription = styled.div`
   @media (max-width: 920px) {
     margin-bottom: 4rem;
   }
-`;
-
-export const ProjectDetailLink = styled(Link)`
-  font-size: 1.5rem;
-  text-decoration: none;
-  transition: 0.2s ease-in-out;
-  padding: 1rem 0;
-  cursor: pointer;
-  color: #e31837;
 `;

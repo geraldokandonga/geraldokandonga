@@ -12,7 +12,7 @@ export const projects = [
     link: "https://windhoekcityrunnersclub.com",
     thumbnail: WindhoekCityRunnersClub,
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Developed in 2018, Windhoek is a running event management club. The site since grown to 500k users with over 1,500 visits monthly.",
   },
 
   {
@@ -21,7 +21,7 @@ export const projects = [
     link: "https://citystriders.com",
     thumbnail: CityStridersClubImage,
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Developed in 2020, City Striders Club is a running and fitness club which runs road running events and fitness trainings.",
   },
 
   {
@@ -30,7 +30,7 @@ export const projects = [
     link: "http://votenamibia.herokuapp.com/",
     thumbnail: VoteNamibiaImage,
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Developed in 2020, Vote Namibia is a voting information sharing platform related to Regional, Local and Presidential Elections in Namibia.",
   },
 
   {
@@ -39,7 +39,7 @@ export const projects = [
     link: "http://shop.citystriders.com",
     thumbnail: CityStoreImage,
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Developed in 2022, Designed and develop with the following technologies: Back-end: NodeJs, ExpressJs, Database: Mongodb, UI: PugJS.",
   },
 
   {
@@ -48,7 +48,7 @@ export const projects = [
     link: "https://upm.org.na",
     thumbnail: UPMImage,
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Developed in 2022, Designed and develop with the following technologies: Back-end: PHP, Laravel, Database: MYSQL, UI: ReactJs",
   },
 
   {
@@ -57,6 +57,6 @@ export const projects = [
     link: "https://eventclub.com.na",
     thumbnail: EventClubImage,
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Developed in 2022, Designed and develop with the following technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
   },
 ];
