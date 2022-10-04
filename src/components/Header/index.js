@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <HeaderHeading className="animated fadeIn">
-        <h1>I"m Geraldo Kandonga, a Software Developer.</h1>
+        <h1>I"m a Full-Stack Developer.</h1>
       </HeaderHeading>
       <HeaderWorkLine className="animated fadeIn">
         <div className="vertical-line"></div>
