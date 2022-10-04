@@ -1,8 +1,8 @@
 {
   "name": "geraldokandonga",
   "version": "0.1.0",
-  "homepage": "https://geraldokandonga.github.io/geraldokandonga",
-  "private": true,
+  "homepage": "https://geraldokandonga.github.io",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
