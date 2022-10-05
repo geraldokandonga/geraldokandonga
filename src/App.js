@@ -18,7 +18,7 @@ function App() {
     <HashRouter basename="/">
       <GlobalStyle />
       <Navbar toggle={toggle} />
-      <Header />
+      <Header toggle={toggle} />
       <Portfolio isOpen={isOpen} toggle={toggle} />
       <Footer />
     </HashRouter>

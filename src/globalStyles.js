@@ -46,8 +46,8 @@ body {
 }
 
 a {
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 31px;
+    font-weight: 700;
     text-align: center;
     line-height: 2;
     letter-spacing: 2px;
@@ -101,6 +102,18 @@ footer p {
   line-height: 2
 }
 
+footer a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  padding: 1rem 0;
+  color: #023e8a;
+  cursor: pointer;
+  &:hover {
+    color: #e31837;
+  }
+}
+
 footer p.about-text{
   width: 90%
 }
@@ -109,6 +122,33 @@ footer ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 40px;
+}
+
+.color-black{
+  color: black !important;
+}
+
+.hashtag-group{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.hashtag-group .hashtag:not(:first-child){
+ margin: 0 .8rem;
+}
+
+
+.hashtag-group .hashtag{
+  font-size: 20px;
+  font-weight: 500;
+
+  @media only screen and (max-width: 560px) {
+    font-size: 18px;
+    margin: .5rem .8rem !important;
+  }
+  @media only screen and (max-width: 1010px) {
+    margin: .8rem !important;
+  }
 }
 
 .animated{
@@ -136,6 +176,35 @@ footer ul li {
   bottom: 0;
   left: 50%;
   border-left: 2px solid black;
+}
+
+.nav-link{
+  padding: 8px 14px;
+  transition: all 0.s ease-in-out;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+h3.subtitle {
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 560px) {
+  h3.subtitle {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1010px) {
+  h3.subtitle {
+    font-size: 20px;
+  }
 }
 
 @keyframes fadeIn {

@@ -48,7 +48,7 @@ export const projects = [
     link: "https://upm.org.na",
     thumbnail: UPMImage,
     description:
-      "Developed in 2022, Designed and develop with the following technologies: Back-end: PHP, Laravel, Database: MYSQL, UI: ReactJs",
+      "United People's Movement is a political party based in Namibia. They asked me to create for them a website with rich features to help manage their members and also allow members to sign up online. The website was developed in 2022, Designed and developed with the following technologies: Back-end: PHP, Laravel, Database: MYSQL, UI: ReactJs",
   },
 
   {

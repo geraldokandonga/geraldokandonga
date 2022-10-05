@@ -8,7 +8,7 @@ import {
   NavLink,
 } from "./NavbarElements";
 
-import Resume from "../../assets/resume.pdf";
+import Resume from "../../assets/Geraldo_Kandonga_Resume.pdf";
 
 const Navbar = ({ toggle }) => {
   return (
@@ -17,12 +17,20 @@ const Navbar = ({ toggle }) => {
         <Logo>Geraldo.</Logo>
         <CenterNav>
           <li>
-            <NavLink onClick={toggle}>Work</NavLink>
+            <NavLink className="nav-link" onClick={toggle}>
+              Work
+            </NavLink>
           </li>
         </CenterNav>
         <SideNav>
           <li>
-            <a href={Resume} download="Resume" target="_blank" rel="noreferrer">
+            <a
+              className="nav-link"
+              href={Resume}
+              download="Geraldo Kandonga Resume"
+              target="_blank"
+              rel="noreferrer"
+            >
               Resume
             </a>
           </li>

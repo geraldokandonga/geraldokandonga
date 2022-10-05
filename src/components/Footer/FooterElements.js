@@ -9,10 +9,6 @@ export const FooterContainer = styled.footer`
     margin-top: 0px;
     margin-bottom: 30px;
   }
-
-  & a {
-    color: black;
-  }
 `;
 
 export const FooterContent = styled(Container)`
@@ -122,17 +118,17 @@ export const FooterLink = styled(Link)`
 `;
 
 export const GithubIcon = styled(FaGithub)`
-  font-size: 16px;
+  font-size: 22px;
 `;
 
 export const InstagramIcon = styled(FaInstagram)`
-  font-size: 16px;
+  font-size: 22px;
 `;
 
 export const TwitterIcon = styled(FaTwitter)`
-  font-size: 16px;
+  font-size: 22px;
 `;
 
 export const LinkedInIcon = styled(FaLinkedinIn)`
-  font-size: 16px;
+  font-size: 22px;
 `;

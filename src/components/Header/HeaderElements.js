@@ -29,5 +29,6 @@ export const HeaderWorkLine = styled.div`
     font-size: 20px;
     text-align: center;
     letter-spacing: 1px;
+    cursor: pointer;
   }
 `;
