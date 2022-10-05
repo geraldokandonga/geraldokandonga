@@ -39,7 +39,7 @@ export const projects = [
     link: "http://shop.citystriders.com",
     thumbnail: CityStoreImage,
     description:
-      "Developed in 2022, Designed and develop with the following technologies: Back-end: NodeJs, ExpressJs, Database: Mongodb, UI: PugJS.",
+      "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs, Database: Mongodb, UI: PugJS.",
   },
 
   {
@@ -48,7 +48,7 @@ export const projects = [
     link: "https://upm.org.na",
     thumbnail: UPMImage,
     description:
-      "United People's Movement is a political party based in Namibia. They asked me to create for them a website with rich features to help manage their members and also allow members to sign up online. The website was developed in 2022, Designed and developed with the following technologies: Back-end: PHP, Laravel, Database: MYSQL, UI: ReactJs",
+      "United People's Movement is a political party based in Namibia. They asked me to create for them a website with rich features to help manage their members and also allow members to sign up online. The website was developed in 2022, Technologies: Back-end: PHP, Laravel, Database: MYSQL, UI: ReactJs",
   },
 
   {
@@ -57,6 +57,6 @@ export const projects = [
     link: "https://eventclub.com.na",
     thumbnail: EventClubImage,
     description:
-      "Developed in 2022, Designed and develop with the following technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
+      "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
   },
 ];
