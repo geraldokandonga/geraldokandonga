@@ -147,7 +147,7 @@ footer ul li {
     margin: .2rem .1rem !important;
   }
   @media only screen and (max-width: 1010px) {
-    margin: .3rem 1.rem !important;
+    margin: .3rem .25rem !important;
   }
 }
 
