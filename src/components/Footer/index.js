@@ -72,6 +72,7 @@ const Footer = () => {
                 href={config.github}
                 target="_blank"
                 rel="noreferrer"
+                className="color-black"
                 title="Github"
               >
                 <GithubIcon />
@@ -82,6 +83,7 @@ const Footer = () => {
                 href={config.twitter}
                 target="_blank"
                 rel="noreferrer"
+                className="color-black"
                 title="Twitter"
               >
                 <TwitterIcon />
@@ -92,6 +94,7 @@ const Footer = () => {
                 href={config.instagram}
                 target="_blank"
                 rel="noreferrer"
+                className="color-black"
                 title="Instagram"
               >
                 <InstagramIcon />
@@ -102,6 +105,7 @@ const Footer = () => {
                 href={config.linkedin}
                 target="_blank"
                 rel="noreferrer"
+                className="color-black"
                 title="LinkedIn"
               >
                 <LinkedInIcon />
