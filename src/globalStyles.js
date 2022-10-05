@@ -144,10 +144,10 @@ footer ul li {
 
   @media only screen and (max-width: 560px) {
     font-size: 18px;
-    margin: .2rem 0 !important;
+    margin: .2rem .1rem !important;
   }
   @media only screen and (max-width: 1010px) {
-    margin: .3rem 0 !important;
+    margin: .3rem 1.rem !important;
   }
 }
 
