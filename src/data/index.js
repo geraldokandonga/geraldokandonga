@@ -12,7 +12,7 @@ export const projects = [
     link: "https://windhoekcityrunnersclub.com",
     thumbnail: WindhoekCityRunnersClub,
     description:
-      "Developed in 2018, Windhoek is a running event management club. The site since grown to 500k users with over 1,500 visits monthly.",
+      "Developed in 2018, Windhoek is a running event management club website. The site since it was launched, it has grown to 5k users with over 1,500 visits per month.",
   },
 
   {
