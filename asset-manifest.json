@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/geraldokandonga/static/css/main.c59cc657.css",
-    "main.js": "/geraldokandonga/static/js/main.0af719f6.js",
+    "main.js": "/geraldokandonga/static/js/main.15719c98.js",
     "static/media/Windhoek-City-Runners-Club.png": "/geraldokandonga/static/media/Windhoek-City-Runners-Club.4507f59c3826e6b82b1c.png",
     "static/media/Event-Club.png": "/geraldokandonga/static/media/Event-Club.d3dbf9770e872e497298.png",
     "static/media/City-Striders-Club.png": "/geraldokandonga/static/media/City-Striders-Club.1c95347984332ef3181c.png",
     "static/media/Welcome-Vote-Namibia.png": "/geraldokandonga/static/media/Welcome-Vote-Namibia.4deb237a81016089df4c.png",
     "static/media/Shop-City-Striders-Store.png": "/geraldokandonga/static/media/Shop-City-Striders-Store.335a70f926e1bdf6e138.png",
     "static/media/UPM.png": "/geraldokandonga/static/media/UPM.019c09f91915e040fa7d.png",
-    "static/media/resume.pdf": "/geraldokandonga/static/media/resume.11d19a0ad70be08003d2.pdf",
+    "static/media/Geraldo_Kandonga_Resume.pdf": "/geraldokandonga/static/media/Geraldo_Kandonga_Resume.c4099644b4d4cc1a3634.pdf",
     "index.html": "/geraldokandonga/index.html",
     "main.c59cc657.css.map": "/geraldokandonga/static/css/main.c59cc657.css.map",
-    "main.0af719f6.js.map": "/geraldokandonga/static/js/main.0af719f6.js.map"
+    "main.15719c98.js.map": "/geraldokandonga/static/js/main.15719c98.js.map"
   },
   "entrypoints": [
     "static/css/main.c59cc657.css",
-    "static/js/main.0af719f6.js"
+    "static/js/main.15719c98.js"
   ]
 }
