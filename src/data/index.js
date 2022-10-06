@@ -60,3 +60,50 @@ export const projects = [
       "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
   },
 ];
+
+export const blogs = [
+  {
+    id: 1,
+    title: "Event Club",
+    url: "https://eventclub.com.na",
+    date: "September 29 2022",
+    description:
+      "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
+  },
+
+  {
+    id: 2,
+    title: "Event Club",
+    url: "https://eventclub.com.na",
+    date: "September 29 2022",
+    description:
+      "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
+  },
+
+  {
+    id: 3,
+    title: "Event Club",
+    url: "https://eventclub.com.na",
+    date: "September 29 2022",
+    description:
+      "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
+  },
+
+  {
+    id: 4,
+    title: "Event Club",
+    url: "https://eventclub.com.na",
+    date: "September 29 2022",
+    description:
+      "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
+  },
+
+  {
+    id: 5,
+    title: "Event Club",
+    url: "https://eventclub.com.na",
+    date: "September 29 2022",
+    description:
+      "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
+  },
+];

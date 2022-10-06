@@ -188,6 +188,17 @@ footer ul li {
   }
 }
 
+.blog-btn {
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &:hover {
+      color: #4a5568 !important;
+    }
+  }
+
 h3.subtitle {
     font-size: 22px;
     font-weight: 300;
