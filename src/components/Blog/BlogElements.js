@@ -20,7 +20,7 @@ export const BlogTitle = styled.h2`
   font-weight: 700;
   line-height: 1.6;
 
-  &:hover {
+  & a:hover {
     color: #4a5568;
   }
 `;

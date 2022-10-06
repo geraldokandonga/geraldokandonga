@@ -1,7 +1,13 @@
 import styled from "styled-components";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { FaGithub, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaGithub,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedinIn,
+  FaMedium,
+} from "react-icons/fa";
 
 export const FooterContainer = styled.footer`
   & h3 {
@@ -87,6 +93,10 @@ export const BottomFooter = styled.div`
     padding: 0px;
   }
 
+  & svg {
+    font-size: 22px;
+  }
+
   @media only screen and (max-width: 550px) {
     flex-direction: column;
 
@@ -117,18 +127,8 @@ export const FooterLink = styled(Link)`
   color: black;
 `;
 
-export const GithubIcon = styled(FaGithub)`
-  font-size: 22px;
-`;
-
-export const InstagramIcon = styled(FaInstagram)`
-  font-size: 22px;
-`;
-
-export const TwitterIcon = styled(FaTwitter)`
-  font-size: 22px;
-`;
-
-export const LinkedInIcon = styled(FaLinkedinIn)`
-  font-size: 22px;
-`;
+export const GithubIcon = styled(FaGithub)``;
+export const InstagramIcon = styled(FaInstagram)``;
+export const TwitterIcon = styled(FaTwitter)``;
+export const LinkedInIcon = styled(FaLinkedinIn)``;
+export const MediumIcon = styled(FaMedium)``;

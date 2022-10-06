@@ -7,6 +7,7 @@ let config = {
     instagram: "https://instagram.com/boom.skills",
     linkedin: "https://linkedin.com/in/geraldokandonga",
     youtube: "https://www.youtube.com/channel/UC-qbaTebVMdtJpTSm6GKVdw",
+    medium: "https://medium.com/@geraldokandonga",
   },
 };
 

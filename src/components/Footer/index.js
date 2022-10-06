@@ -11,6 +11,7 @@ import {
   TwitterIcon,
   InstagramIcon,
   LinkedInIcon,
+  MediumIcon,
 } from "./FooterElements";
 
 import config from "../../config";
@@ -109,6 +110,17 @@ const Footer = () => {
                 title="LinkedIn"
               >
                 <LinkedInIcon />
+              </a>
+            </li>
+            <li>
+              <a
+                href={config.medium}
+                target="_blank"
+                rel="noreferrer"
+                className="color-black"
+                title="Medium"
+              >
+                <MediumIcon />
               </a>
             </li>
           </ul>

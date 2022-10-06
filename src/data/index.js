@@ -12,7 +12,7 @@ export const projects = [
     link: "https://windhoekcityrunnersclub.com",
     thumbnail: WindhoekCityRunnersClub,
     description:
-      "Developed in 2018, Windhoek is a running event management club website. The site since it was launched, it has grown to 5k users with over 1,500 visits per month.",
+      "Developed in 2018, Windhoek is a road running event management club website. Since it was launched in 2018, the website has grown to 5k users with over 1,500 visits per month.",
   },
 
   {
@@ -62,48 +62,44 @@ export const projects = [
 ];
 
 export const blogs = [
-  {
-    id: 1,
-    title: "Event Club",
-    url: "https://eventclub.com.na",
-    date: "September 29 2022",
-    description:
-      "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
-  },
-
-  {
-    id: 2,
-    title: "Event Club",
-    url: "https://eventclub.com.na",
-    date: "September 29 2022",
-    description:
-      "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
-  },
-
-  {
-    id: 3,
-    title: "Event Club",
-    url: "https://eventclub.com.na",
-    date: "September 29 2022",
-    description:
-      "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
-  },
-
-  {
-    id: 4,
-    title: "Event Club",
-    url: "https://eventclub.com.na",
-    date: "September 29 2022",
-    description:
-      "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
-  },
-
-  {
-    id: 5,
-    title: "Event Club",
-    url: "https://eventclub.com.na",
-    date: "September 29 2022",
-    description:
-      "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
-  },
+  // {
+  //   id: 1,
+  //   title: "Event Club",
+  //   url: "https://eventclub.com.na",
+  //   date: "September 29 2022",
+  //   description:
+  //     "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
+  // },
+  // {
+  //   id: 2,
+  //   title: "Event Club",
+  //   url: "https://eventclub.com.na",
+  //   date: "September 29 2022",
+  //   description:
+  //     "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Event Club",
+  //   url: "https://eventclub.com.na",
+  //   date: "September 29 2022",
+  //   description:
+  //     "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Event Club",
+  //   url: "https://eventclub.com.na",
+  //   date: "September 29 2022",
+  //   description:
+  //     "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Event Club",
+  //   url: "https://eventclub.com.na",
+  //   date: "September 29 2022",
+  //   description:
+  //     "Developed in 2022, Technologies: Back-end: NodeJs, ExpressJs,SequilizeJS, Database: MYSQL, UI: ReactJs",
+  // },
 ];

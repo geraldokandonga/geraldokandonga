@@ -25,7 +25,6 @@ function App() {
       <Navbar toggle={toggle} />
       <Home>
         <Header toggle={toggle} />
-        <Portfolio isOpen={isOpen} toggle={toggle} />
         <BlogsContainer>
           {blogs.map((blog) => (
             <>
@@ -40,6 +39,7 @@ function App() {
         </BlogsContainer>
       </Home>
       <Footer />
+      <Portfolio isOpen={isOpen} toggle={toggle} />
     </HashRouter>
   );
 }
