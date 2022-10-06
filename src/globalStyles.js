@@ -72,7 +72,7 @@ img {
 p {
   font-size: 16px;
   letter-spacing: 0.5px;
-  line-height: 1.6;
+  line-height: 1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,10 +96,6 @@ h1 {
   h1 {
     font-size: 25px;
   }
-}
-
-footer p {
-  line-height: 2
 }
 
 footer a {
