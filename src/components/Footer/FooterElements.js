@@ -3,10 +3,6 @@ import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import {
   FaGithub,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-  FaMedium,
 } from "react-icons/fa";
 
 export const FooterContainer = styled.footer`
@@ -128,7 +124,3 @@ export const FooterLink = styled(Link)`
 `;
 
 export const GithubIcon = styled(FaGithub)``;
-export const InstagramIcon = styled(FaInstagram)``;
-export const TwitterIcon = styled(FaTwitter)``;
-export const LinkedInIcon = styled(FaLinkedinIn)``;
-export const MediumIcon = styled(FaMedium)``;

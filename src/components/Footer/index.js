@@ -8,10 +8,6 @@ import {
   FooterSection,
   FooterLink,
   GithubIcon,
-  TwitterIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  MediumIcon,
 } from "./FooterElements";
 
 import config from "../../config";
@@ -24,20 +20,8 @@ const Footer = () => {
           <FooterAboutContainer className="animated fadeIn">
             <h3>About</h3>
             <p className="about-text">
-              I am a Full-Stack Web Developer, with over 4 years of Software
+              I am a Full-Stack Web Developer, with over 6 years of Software
               Development.
-            </p>
-            <p className="about-text">
-              Subscribe to my{" "}
-              <a
-                href={config.youtube}
-                target="_blank"
-                rel="noreferrer"
-                title="YouTube"
-              >
-                YouTube Channel
-              </a>{" "}
-              for more experience on web development journey.
             </p>
             <p className="hashtag-group">
               <span className="hashtag">#javascript</span>
@@ -47,6 +31,9 @@ const Footer = () => {
               <span className="hashtag">#api</span>
               <span className="hashtag">#mongodb</span>
               <span className="hashtag">#sequelize</span>
+              <span className="hashtag">#dart</span>
+              <span className="hashtag">#aws</span>
+              <span className="hashtag">#flutter</span>
             </p>
           </FooterAboutContainer>
           <FooterContactContainer className="animated fadeIn">
@@ -77,50 +64,6 @@ const Footer = () => {
                 title="Github"
               >
                 <GithubIcon />
-              </a>
-            </li>
-            <li>
-              <a
-                href={config.twitter}
-                target="_blank"
-                rel="noreferrer"
-                className="color-black"
-                title="Twitter"
-              >
-                <TwitterIcon />
-              </a>
-            </li>
-            <li>
-              <a
-                href={config.instagram}
-                target="_blank"
-                rel="noreferrer"
-                className="color-black"
-                title="Instagram"
-              >
-                <InstagramIcon />
-              </a>
-            </li>
-            <li>
-              <a
-                href={config.linkedin}
-                target="_blank"
-                rel="noreferrer"
-                className="color-black"
-                title="LinkedIn"
-              >
-                <LinkedInIcon />
-              </a>
-            </li>
-            <li>
-              <a
-                href={config.medium}
-                target="_blank"
-                rel="noreferrer"
-                className="color-black"
-                title="Medium"
-              >
-                <MediumIcon />
               </a>
             </li>
           </ul>
